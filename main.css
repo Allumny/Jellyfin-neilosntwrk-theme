@@ -1,0 +1,48 @@
+/* interface geral */
+.playedIndicator {
+  background: hsl(163, 80%, 60%);
+}
+.countIndicator {
+    background: hsl(163, 80%, 60%);
+}
+/* Página de login */
+#loginPage {
+  background-color: hsl(0, 4%, 15%);
+}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
+  background: none;
+  background-color: hsl(0, 4%, 15%);
+}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {
+  background: none;
+  background-color: hsl(0, 4%, 15%);
+}
+#loginPage .readOnlyContent,
+#loginPage form {
+  max-width: 22em;
+}
+#loginPage h1 {
+  display: none;
+}
+#loginPage .padded-left.padded-right.padded-bottom-page {
+  margin-top: 50px;
+}
+#loginPage .raised.cancel.block.btnManual.emby-button {
+  display: none;
+}
+/* Plano de fundo */
+.backgroundContainer,
+.dialog,
+html {
+  background-color: hsl(0, 4%, 15%);
+}
+/* Cabeçalho e menus */
+.headerLeft {
+  color: hsl(163, 80%, 60%);
+}
+.headerRight {
+  color: hsl(163, 80%, 60%);
+}
+.mainDrawer-scrollContainer {
+  color: hsl(163, 80%, 60%);
+}
